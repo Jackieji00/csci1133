@@ -1,0 +1,6 @@
+def perfect(n):
+  s = 0
+  for i in range(i,n):
+    if n % i ==0:
+      s += i
+  return s==n

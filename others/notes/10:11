@@ -1,0 +1,26 @@
+# change the object
+a = [1,2,3,4]
+a[2] = 'houdy'
+# a = [1,2,'houdy',3,4]
+
+# delete object at location
+del a [2]
+# a = [1,2,3,4]
+
+# operation in
+'c' in 'abcdefg'
+# True
+'c' not in 'abcdefg'
+# False
+
+#class behavior is a function --method
+
+max()
+min()
+sum()
+
+# multidimensional list
+m = [[1,2,3],[4,5,6],[7,8,9]] # 3list in 1 list [[row1],[row2],[row3]]
+a = m[1] #[4,5,6]
+a[0] #4
+m[1][0] #4
